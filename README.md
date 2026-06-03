@@ -192,47 +192,35 @@ After completing these projects, you will gain experience in:
 ```bash
 FastBit-Embedded-Systems-using-STM32/
 │
-├── STM32_Drivers/
-│   ├── GPIO_Driver/
-│   ├── SPI_Driver/
-│   ├── I2C_Driver/
-│   ├── USART_Driver/
-│   ├── RCC_Driver/
-│   └── EXTI_Driver/
+├── Core/
+│   ├── Inc/
+|   ├── Src/
+│   └── Startup/
+├── Drivers/
+│   ├── CMSIS/
+│   └── STM32F4xx_HAL_Driver/
+├── Debug/
+│   ├── Core/
+│   └── Drivers/
 │
-├── Peripheral_Projects/
-│   ├── LED_Control/
-│   ├── Button_Interrupts/
-│   ├── UART_Communication/
-│   ├── SPI_Communication/
-│   ├── I2C_Communication/
-│   └── ADC_Applications/
+├── LED Pins Setup/
+│   ├── LED Blinking through GPIO Pins
+│   ├── STM32 Nanoboard Connected
+│   ├── STM32Cube Pinout Configuration
+│   └── STM32F303CC
+|
+├── STM32Cube Monitor/
+│   ├── LED_Toggling with Monitor Acquistion
+│   ├── Monitor Acquistions Graph 1
+│   ├── Monitor Acquistions Graph 2
+│   └── Monitor Hardware Connected
 │
-├── FreeRTOS_Projects/
-│   ├── Task_Management/
-│   ├── Queue_Examples/
-│   ├── Semaphore_Examples/
-│   ├── Mutex_Examples/
-│   └── Event_Group_Examples/
+├── STM32Cube Programmer/
+│   └── STM32 Connected
 │
-├── Embedded_Applications/
-│   ├── Sensor_Interfacing/
-│   ├── Data_Logging_System/
-│   ├── LCD_Display_Project/
-│   ├── RTC_Applications/
-│   └── Communication_Protocols/
-│
-├── Documentation/
-│   ├── STM32_Reference_Notes/
-│   ├── Driver_Architecture/
-│   ├── Peripheral_Guides/
-│   └── Project_Reports/
-│
-├── Images/
-│   ├── Circuit_Diagrams/
-│   ├── Hardware_Setups/
-│   └── Output_Screenshots/
-│
+├── LED_Blinker.ioc
+├── STM32F407VGTX_FLASH.ld
+├── STM32F407VGTX_RAM.ld
 └── README.md
 ```
 
