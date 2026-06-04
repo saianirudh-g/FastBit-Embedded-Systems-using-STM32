@@ -192,22 +192,24 @@ After completing these projects, you will gain experience in:
 ```bash
 FastBit-Embedded-Systems-using-STM32/
 │
-├── Core/
+├── LED Blinker/Core/
 │   ├── Inc/
 |   ├── Src/
 │   └── Startup/
-├── Drivers/
-│   ├── CMSIS/
-│   └── STM32F4xx_HAL_Driver/
-├── Debug/
-│   ├── Core/
-│   └── Drivers/
 │
 ├── LED Pins Setup/
 │   ├── LED Blinking through GPIO Pins
 │   ├── STM32 Nanoboard Connected
 │   ├── STM32Cube Pinout Configuration
 │   └── STM32F303CC
+|
+├── MPU6050_PWM_LED_Control/
+│   ├── main.c
+│   ├── app_callback.c
+│   ├── kalman_filter.c
+│   ├── kalman_filter.h
+│   ├── mpu6050.c
+│   └── mpu6050.h
 |
 ├── STM32Cube Monitor/
 │   ├── LED_Toggling with Monitor Acquistion
